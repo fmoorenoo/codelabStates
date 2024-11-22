@@ -18,8 +18,7 @@ fun WaterCounter(modifier: Modifier = Modifier) {
 
         Button(
             onClick = { contadorVasos++ },
-            Modifier.padding(bottom = 15.dp),
-            enabled = contadorVasos < 10
+            Modifier.padding(bottom = 15.dp)
         ) {
             Text("Añadir vaso")
         }
